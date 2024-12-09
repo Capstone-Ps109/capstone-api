@@ -30,6 +30,8 @@ Start the server
   npm run start
 ```
 
+## Endpoint
+https://auth-api-1082812442001.asia-southeast2.run.app
 
 ## API Reference
 
