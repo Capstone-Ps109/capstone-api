@@ -39,11 +39,9 @@ Start the server
 - Method : 
   - `POST`
 - Request Body :
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `name` | `string` | Your name |
-| `email` | `string` | Must be unique |
-| `password` | `string` | Must be at least 8 characters |
+  - `name` as `string` 
+  - `email` as `string`, Must be unique 
+  - `password` as `string`, Must be at least 8 characters
 - Response
   - Success
   ```json
@@ -89,10 +87,8 @@ Start the server
 - Method : 
   - `POST`
 - Request Body :
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `email` | `string` |  |
-| `password` | `string` |  |
+  - `email` as `string`
+  - `password` as `string`
 - Response
   - Success
   ```json
@@ -118,9 +114,7 @@ Start the server
 - Method : 
   - `GET`
 - Headers :
-| Key | Value     | Description                |
-| :-------- | :------- | :------------------------- |
-| `Authorization` | `Bearer <token>` |  |
+  - `Authorization` : `Bearer <token>`
 - Response
   - Success
   ```json
@@ -159,9 +153,7 @@ Start the server
 - Method : 
   - `POST`
 - Headers :
-| Key | Value     | Description                |
-| :-------- | :------- | :------------------------- |
-| `Authorization` | `Bearer <token>` |  |
+  - `Authorization` : `Bearer <token>`
 - Response
   - Success
   ```json
