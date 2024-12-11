@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+numpy
+tensorflow
+google-cloud-firestore
+google-cloud-storage
+requests
+python-jose
+python-multipart
